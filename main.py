@@ -106,7 +106,8 @@ def assign(l_task, l_car, N_taskdone):
             sortedCar = sorted(ok_car, key=newD)
         return "yes", (l_task(N_taskdone), sortedCar[0])
 
-# main function, Qinglin refuse to put it into a run() method of a class
+# main function, Qinglin refuse to put it into a run() method of a class 
+# f**k you Yuhang, I didn't know that!
 while t < T:
     flag = "no"
     while flag == "no":
